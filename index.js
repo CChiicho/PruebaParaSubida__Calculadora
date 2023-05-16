@@ -27,7 +27,7 @@ function calcular(){
                 resultado = op1/op2
                 break
         }
-        pResultado.style = "color:green"
+        pResultado.style = "color:blue"
         pResultado.innerText = "= " + resultado
     }else{
         pResultado.style = "color:red"
